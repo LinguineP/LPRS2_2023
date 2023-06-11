@@ -1,0 +1,31 @@
+python:
+	python-rtmidi
+		Name: python-rtmidi                                                                    
+		Version: 1.4.9                                                                         
+		Summary: A Python binding for the RtMidi C++ library implemented using Cython.                                          
+		Home-page: https://github.com/SpotlightKid/python-rtmidi                                                                
+		Author: Christopher Arndt                                                                                               
+		Author-email: chris@chrisarndt.de                                                                                       
+		License: MIT License
+	mido  #import mido:
+		Name: mido                                                                                                              
+		Version: 1.2.10                                                                                                       
+		Summary: MIDI Objects for Python                                                                                        
+		Home-page: https://mido.readthedocs.io/                                                                               
+		Author: Ole Martin Bjorndalen                                                                                           
+		Author-email: ombdalen@gmail.com                                                                                        
+		License: MIT
+	pyserial #import serial
+		Name: pyserial                                                                                                          
+		Version: 3.5      
+                Summary: Python Serial Port Extension                                                                                   
+		Home-page: https://github.com/pyserial/pyserial                                                                         
+		Author: Chris Liechti                                                                                                   
+		Author-email: cliechti@gmx.net                                                                                          
+		License: BSD 
+		
+ino:
+	MIDI.h  -by Francois Best
+	SoftwareSerial
+Other:
+	loopMidi --for creating virtual midi port to comunicate between DAW and py
